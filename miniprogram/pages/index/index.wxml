@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+    <swiper class="swiper" autoplay="true" indicator-dots="true" interval="3000" circular="true">
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/1.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/2.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/3.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/4.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/5.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/6.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/swiper/7.jpg"></image>
+        </swiper-item>
+    </swiper>
+</view>
