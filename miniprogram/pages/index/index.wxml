@@ -2,6 +2,8 @@
 <view class="container">
     <image src="cloud://cloud-wvyu5.636c-cloud-wvyu5-1302407586/xiaoying.jpg"></image>
 </view>
+
+<!-- 自动滚动图片 -->
 <view class="pic">
     <swiper class="swiper" autoplay="true" interval="3000" circular="true">
         <swiper-item>
@@ -27,11 +29,40 @@
         </swiper-item>
     </swiper>
 </view>
+
+<!-- 列表 -->
 <view class="list">
-    <view class="weui-cells weui-cells_after-title">
-        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-            <view class="weui-cell__bd">LR原图</view>
-            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-        </navigator>
+
+<!-- 教程 -->
+    <navigator url="/pages/learn/learn" open-type='switchTab' hover-class="none">
+        <view class="weui-flex">
+			<view class="weui-flex__item">
+                <view class="nav-font">教程</view>
+            </view>
+			<view class="weui-flex__item" style="text-align: right">
+                <view class="placeholder">
+                    <image src="/images/tabBar/right.png"></image>
+                </view>
+            </view>
+		</view>
+    </navigator>
+    <view class="list-pic">
+        <scroll-view scroll-x="true">
+            
+        </scroll-view>
     </view>
+    
+<!-- 高清图片 -->
+    <navigator url="/pages/artwork/artwork" open-type='switchTab' hover-class="none">
+        <view class="weui-flex">
+			<view class="weui-flex__item">
+                <view class="nav-font">高清图片</view>
+            </view>
+			<view class="weui-flex__item" style="text-align: right">
+                <view class="placeholder">
+                    <image src="/images/tabBar/right.png"></image>
+                </view>
+            </view>
+		</view>
+    </navigator>
 </view>
